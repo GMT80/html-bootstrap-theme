@@ -1,0 +1,207 @@
+body {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.font-wh {
+  color: #fff;
+}
+
+.font-bl {
+  color: #2C3E50;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.pd-20 {
+  padding: 20px;
+}
+
+.pd-30 {
+  padding: 40px;
+}
+
+.pd-60 {
+  padding: 60px;
+}
+.star {
+
+  position: relative;
+}
+.wh-star {
+  color: #fff;
+  font-size: 35px;
+}
+
+.bl-star {
+  color: #2C3E50;
+  font-size: 35px;
+}
+
+
+
+/* NAVBAR----------------------------- */
+
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.nav-bar {
+  background-color: #2C3E50;
+}
+
+.nav-bar-left {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.nav-bar-left >a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-bar-right >ul li {
+  font-size: 15px;
+  list-style-type: none;
+  display: inline;
+  margin: 20px 20px;
+  line-height: 80px;
+}
+
+.nav-bar-right a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-bar-right a:hover {
+  text-decoration: none;
+  color: #18BC9C;
+}
+/* JUMBO--------------------------- */
+
+.jumbo {
+  background-color: #18BC9C;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: 'Lato';
+
+}
+/* PORTFOLIO------------------------- */
+
+h3 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.portfolio {
+  background-color: #fff;
+}
+
+.portfolio img {
+  margin: 10px auto;
+}
+/* ABOUT------------------------- */
+.about {
+  background-color: #18BC9C;
+}
+
+.about p {
+  font-family: 'Lato';
+  padding: 20px 0;
+}
+
+.btn-download {
+  font-size: 18px;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+}
+
+.btn-download:hover {
+  background-color: #fff;
+}
+/* FORM------------------------- */
+
+input {
+  width: 100%;
+  font-size: 25px;
+  color: #6C797D;
+  font-family: 'Lato';
+  border: none;
+  margin: 20px 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn-send {
+  font-size: 20px;
+  color: #fff;
+  background-color: #18BC9C;
+  float: left;
+}
+
+.text-area {
+  margin-bottom: 180px
+}
+/* FOOTER----------------------- */
+
+.footer {
+  background-color: #2C3E50;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.footer p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Lato';
+}
+
+.social-item a {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  margin: 15px 5px;
+}
+
+.btn-social {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.btn-social:hover {
+  color: none;
+  background-color: #fff;
+}
+
+.link {
+  color: #18BC9C;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgba(24, 188, 156, 0.7);
+}
+
+/* COPYRIGHT-------------------------- */
+
+.copyright {
+  background-color: #1A252F;
+}
+
+.copyright span {
+  font-size: 12px;
+  font-family: 'Lato';
+}
