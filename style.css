@@ -26,10 +26,7 @@ body {
 .pd-60 {
   padding: 60px;
 }
-.star {
 
-  position: relative;
-}
 .wh-star {
   color: #fff;
   font-size: 35px;
@@ -51,7 +48,11 @@ h1 {
 }
 
 .nav-bar {
+  width: 100vw;
   background-color: #2C3E50;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .nav-bar-left {
@@ -59,9 +60,9 @@ h1 {
   margin: 20px 0;
 }
 
-.nav-bar-left >a:hover {
-  text-decoration: none;
+.start:hover, .start:visited, .start:focus {
   color: #fff;
+  text-decoration: none;
 }
 
 .nav-bar-right >ul li {
@@ -84,6 +85,7 @@ h1 {
 /* JUMBO--------------------------- */
 
 .jumbo {
+  margin-top: 90px;
   background-color: #18BC9C;
 }
 
@@ -146,6 +148,13 @@ input:focus {
   color: #fff;
   background-color: #18BC9C;
   float: left;
+}
+
+.btn-send:hover, .btn-send:visited, .btn-send:focus {
+  color: #fff;
+  background-color: #128f76;
+  border-color: #128f76;
+  outline: none;
 }
 
 .text-area {
