@@ -47,12 +47,13 @@ h1 {
   font-family: 'Montserrat';
 }
 
-.nav-bar {
+.nav-bar  {
   width: 100vw;
   background-color: #2C3E50;
   position: fixed;
   top: 0;
-  z-index: 10;
+  left: 0;
+  z-index: 1;
 }
 
 .nav-bar-left {
@@ -89,6 +90,10 @@ h1 {
   background-color: #18BC9C;
 }
 
+.jumbo img {
+  display: inline;
+}
+
 h2 {
   font-size: 28px;
   font-family: 'Lato';
@@ -108,6 +113,7 @@ h3 {
 
 .portfolio img {
   margin: 10px auto;
+  cursor: pointer;
 }
 /* ABOUT------------------------- */
 .about {
@@ -180,14 +186,14 @@ h4 {
 
 .social-item a {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   display: inline-block;
   margin: 15px 5px;
 }
 
 .btn-social {
   border: 2px solid #fff;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .btn-social:hover {
@@ -214,3 +220,41 @@ h4 {
   font-size: 12px;
   font-family: 'Lato';
 }
+
+
+.star-white {
+  color: white;
+}
+
+.star-black {
+  color: black;
+}
+.star-white, .star-black {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.star:before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 40%;
+    height: 5px;
+}
+.star:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 40%;
+    height: 5px;
+}
+
+.star-white:before, .star-white:after {
+    background: white;
+}
+.star-black:before, .star-black:after {
+    background: black;
